@@ -1,6 +1,6 @@
 import requests
+from django.contrib.auth import login
 from django.http.request import HttpRequest
-from django.contrib.auth import login, logout
 from django.contrib.auth.models import User
 
 from .auth_user import AuthUser
